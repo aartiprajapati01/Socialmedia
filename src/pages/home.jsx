@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CreatePost from "../components/CreatePost";
-import PostCard from "../components/PostCard";
+import CreatePost from "../components/createPost";
+import PostCard from "../components/postCard";
 
 function Home() {
   const [posts, setPosts] = useState([]);
